@@ -5,7 +5,7 @@ Contains encryption and decryption methods.
 Running the `main.py` file will give an example encryption/decryption process:
 ```py
     cipher = CaesarCipher()
-    cipher.get_key()  # Allows user input to set the desire Caesar key
+    cipher.get_key()  # Allows user input to set the desired Caesar key
 
     message = "Please do not throw sausage pizza away."
 
