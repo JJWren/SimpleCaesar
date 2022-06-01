@@ -3,7 +3,7 @@ This is an importable class structure for making and decrypting a Caesar Cipher.
 Contains encryption and decryption methods.
 
 Running the `main.py` file will give an example encryption/decryption process:
-```
+```py
     cipher = CaesarCipher()
     cipher.get_key()  # Allows user input to set the desire Caesar key
 
