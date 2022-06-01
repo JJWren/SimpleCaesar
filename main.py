@@ -1,9 +1,12 @@
 class CaesarCipher:
+    '''Allows user to set a Caesar key and encrypt or decrypt a Caesar cipher based on the set key. Initial key value is set to 0.'''
+
     def __init__(self):
         self.ALPHABET: str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~`!@#$%^&*()_+-={}|[]\\:;\"'<>,.?/"
         self.key: int = 0
 
     def get_key(self):
+        '''Set the Caesar Cipher key value.'''
         try:
             key: int = int(input("Input encryption/decryption key: "))
             self.key = key
